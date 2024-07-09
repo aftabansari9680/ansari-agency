@@ -1,6 +1,6 @@
 import Ansari from "@/components/Ansari";
 import Bottom from "@/components/Bottom";
-import Build from "@/components/build";
+import Build from "@/components/Build";
 import Grahak from "@/components/Grahak";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
