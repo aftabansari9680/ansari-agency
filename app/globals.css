@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .invert-calander-icon {
+    @apply -webkit-calender-picker-indicator;
+    filter: invert(1);
+  }
+} */
+
+*
+{
+    scroll-behavior: smooth;
+}
