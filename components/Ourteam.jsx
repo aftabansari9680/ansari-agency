@@ -22,14 +22,15 @@ const Ourteam = () => {
   ];
   return (
     <div className="text-white flex gap-5 flex-wrap justify-center px-3 ">
-      {ourteam.map((item) => (
-        <div className="bg-[#05242d] overflow-hidden rounded-2xl border-2 border-[#05242d] hover:border-[#5ca1a5] duration-300 ">
+      {ourteam.map(({item,i}) => (
+        <div key={i} className="bg-[#05242d] overflow-hidden rounded-2xl border-2 border-[#05242d] hover:border-[#5ca1a5] duration-300 ">
           <div className="h-40 w-40 rounded-2xl overflow-hidden">
             <Image
               className="w-full h-full rounded-2xl object-bottom object-cover transition ease-in-out hover:scale-125 duration-500"
               src={item.image}
               height={"100"}
               width={"100"}
+              alt={item.name}
             ></Image>
           </div>
           <div className="pb-5">
