@@ -5,7 +5,7 @@ const Build = () => {
   return (
     <div className="text-white flex flex-col gap-7 bg-[#020c0c] py-16 px-10">
       <h1 className="flex justify-center">
-        <span className="text-center text-6xl font-bold bg-gradient-to-b from-purple-950  to-teal-800 text-transparent bg-clip-text ">
+        <span className="text-center pb-4 text-6xl font-bold bg-gradient-to-b from-purple-950  to-teal-800 text-transparent bg-clip-text ">
           Project Built
         </span>
       </h1>

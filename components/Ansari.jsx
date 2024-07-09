@@ -4,10 +4,9 @@ const Ansari = () => {
   return (
     <div>
     <div className="text-white bg-black  flex flex-col items-center gap-8 py-4 px-10">
-      <h1 className='flex justify-center'>
-        <span className="font-bold text-5xl md:text-5xl bg-gradient-to-b from-purple-400  to-black text-transparent bg-clip-text">
+      <h1 className='text-center font-bold text-4xl md:text-5xl bg-gradient-to-b from-purple-400  to-black text-transparent bg-clip-text'>
           Ansari Agency
-        </span>
+
       </h1>
       <div className="font-bold text-xl text-center">
         We are creative digital agency
