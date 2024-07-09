@@ -8,7 +8,7 @@ const Ask = () => {
   ];
   return (
     <div className=" w-full flex flex-col gap-9">
-      {Ask.map(({ item, index }) => (
+      {Ask.map(( item, index ) => (
         <div
           key={index}
           className="bg-slate-800 text-white flex flex-col items-center gap-5  py-6 rounded-2xl border-2 hover:border-[#2e8e9d] duration-300 border-[#373737]"

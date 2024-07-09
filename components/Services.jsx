@@ -21,7 +21,7 @@ const Services = () => {
   ];
   return (
     <div className="text-white bg-black flex  gap-5 p-5 py-4 flex-wrap justify-center">
-      {services.map(({ item, i }) => (
+      {services.map(( item, i ) => (
         <div
           key={i}
           className=" w-60 border-2 hover:border-[#9fe9ef] border-[#0b373a] duration-300  px-4 py-4 rounded-2xl flex flex-col gap-5 bg-[#0c4042]"

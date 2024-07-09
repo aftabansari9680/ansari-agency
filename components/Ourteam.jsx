@@ -22,7 +22,7 @@ const Ourteam = () => {
   ];
   return (
     <div className="text-white flex gap-5 flex-wrap justify-center px-3 ">
-      {ourteam.map(({item,i}) => (
+      {ourteam.map((item,i) => (
         <div key={i} className="bg-[#05242d] overflow-hidden rounded-2xl border-2 border-[#05242d] hover:border-[#5ca1a5] duration-300 ">
           <div className="h-40 w-40 rounded-2xl overflow-hidden">
             <Image
