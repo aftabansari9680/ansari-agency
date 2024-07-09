@@ -11,7 +11,7 @@ const Pucho = () => {
           </span>
         </h1>
         <div>
-          We craft beautifully simple designs and code with love. It's as simple
+          We craft beautifully simple designs and code with love. It&apos;s as simple
           as that!
         </div>
         <div className="flex gap-4 ">

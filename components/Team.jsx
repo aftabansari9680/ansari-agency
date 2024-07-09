@@ -10,8 +10,8 @@ const Team = () => {
         </span>
       </h1>
       <div className="text-white font-bold text-center">
-        Meet our diverse team of creative minds, developers, and strategists –
-        the driving force behind every project's success.
+        Meet our diverse team of creative minds, developers, and strategists the
+        driving force behind every project&apos;s success.
       </div>
 
       <Ourteam />
