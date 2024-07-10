@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-
 const Navbar = () => {
   return (
     <div className="bg-black flex justify-between items-center p-4 fixed w-full ">
@@ -13,7 +12,7 @@ const Navbar = () => {
         <Link href={"#home"} className="cursor-pointer hover:text-purple-500 duration-300">
           Home
         </Link>
-        <Link href={"OurServices"} className="cursor-pointer hover:text-purple-500 duration-300">
+        <Link href={"#OurServices"} className="cursor-pointer hover:text-purple-500 duration-300">
           Our Services
         </Link>
         <div className="cursor-pointer hover:text-purple-500 duration-300">

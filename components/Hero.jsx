@@ -4,7 +4,9 @@ const Hero = () => {
   return (
     <div className="pt-10 " id="home">
       <div className="flex flex-col items-center py-20 bg-black gap-10">
-        <div className=" text-white">Creative Agency</div>
+        <div className=" text-white text-center md:text-center">
+          Creative Agency
+        </div>
         <h1>
           <span className="text-5xl md:text-6xl text-center flex justify-center font-bold bg-gradient-to-t from-black to-purple-500 text-transparent bg-clip-text ">
             Digital Agency
@@ -20,7 +22,7 @@ const Hero = () => {
           UX/UI, and interactive media, we ensure your project is not just
           visually stunning but also strategically effective. Explore how our
           robust designs can transform your online presence and drive success.
-          Let’s create something impactful together.
+          Lets create something impactful together.
         </div>
 
         <div className="flex gap-5 justify-center ">
