@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="pt-10 " id="home">
+    <div className="pt-10 " id="#home">
       <div className="flex flex-col items-center py-20 bg-black gap-10">
         <div className=" text-white text-center md:text-center">
           Creative Agency
@@ -50,14 +50,14 @@ const Hero = () => {
             <div className="text-xs text-center">Trusted Clients</div>
           </div>
         </div>
-        <div className="flex flex-col text-white gap-7" id="OurServices">
+        {/* <div className="flex flex-col text-white gap-7" id="OurServices">
           <div className="text-5xl font-bold  text-center bg-gradient-to-b from-purple-400  to-black text-transparent bg-clip-text ">
             OurServices
           </div>
           <div className="text-xl font-bold text-center ">
             We specialize in strategic digital creativity
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
